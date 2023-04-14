@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+<h1 align="center">Finance Tracker</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h2 align="center">:page_facing_up: About the project </h2>
+<p>This is a finance tracker project created using React, JavaScript, and Styled Components. The goal of this project is to help users track their income and expenses and provide insights into their spending habits.</p>
+<br>
 
-## Available Scripts
 
-In the project directory, you can run:
+<h2 align="center">:hammer: Project Features </h2>
 
-### `npm start`
+- ``Feature:``
+<p>Users can add income and expenses with a description and amount.</p>
+<p>Users can see a summary of their total income, total expenses, and net income.</p>
+<!-- <p>Users can see a chart that displays their spending by category.</p> -->
+<!-- Users can filter their transactions by date range. -->
+<p>Users can save their transactions to local storage so that their data is not lost upon refresh.</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<h2 align="center"> :file_folder:View the project </h2>
+<p> You can access the final project by clicking here:
+</p>
+<br>
+<h2 align="center"> :computer: Technologies Used </h2>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- ``React``,
+- ``Javascript``,
+- ``Styled Component``.
 
-### `npm test`
+<h2 align="center">Instalation</h2>
+<p>To run this project locally, clone the repository and run the following commands:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+sql
+Copy code
+npm install
+npm start</p>
 
-### `npm run build`
+<h2 align="center">Usage</h2>
+After running the above commands, the project should be running on localhost:3000. Users can add transactions by clicking on the "+" button, filter transactions by date range by clicking on the calendar icon, and view their spending by category in the chart.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<h2 align="center">Dependencies</h2>
+<br>
+react: version 17.0.2
+react-dom: version 17.0.2
+styled-components: version 5.3.0
+react-icons: version 4.3.1
+react-chartjs-2: version 3.0.5
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<br>
+<h2 align="center">Acknowledgements</h2>
+This project was inspired by Will Dev.
