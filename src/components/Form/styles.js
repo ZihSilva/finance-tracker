@@ -22,7 +22,11 @@ export const InputContent = styled.div`
     flex-direction: column;
 `;
 
-export const Label = styled.label``;
+export const Label = styled.label`
+padding-left: 5px;
+padding-bottom: 5px;
+`
+
 
 export const Input = styled.input`
 outline: none;
@@ -30,27 +34,29 @@ border-radius: 5px;
 padding: 5px 10px;
 font-size: 15px;
 border: 1px solid #ccc;
+display: flex;
 `;
 
 export const RadioGroup = styled.div`
     display: flex;
     align-items: center;
+    margin-top: 10px;
 
     input {
-        margin-left: 20px;
+        margin-left: 10px;
         margin-right: 5px
         accent-color: black;
-        margin-top: 0;
+        
     }
 `;
 
 export const Button = styled.button`
-    padding: 5px 10px;
+    padding: 20px 10px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    color: white;
-    background-color: teal;
+    color: #21232C;
+    background-color: #40D4A5;
 `;
 
 

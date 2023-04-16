@@ -45,6 +45,9 @@ export const HeaderTitle = styled.p`
 export const Total = styled.span`
     font-size: 30px;
     font-weight: bold;
+    display: flex;
+    justify-content: center;
 `;
+
 
 

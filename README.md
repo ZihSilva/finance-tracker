@@ -7,7 +7,6 @@
 
 <h2 align="center">:hammer: Project Features </h2>
 
-- ``Feature:``
 <p>- Users can add income and expenses with a description and amount.</p>
 <p>- Users can see a summary of their total income, total expenses, and net income.</p>
 <!-- <p>Users can see a chart that displays their spending by category.</p> -->
@@ -29,15 +28,15 @@
 <br>
 <p>To run this project locally, clone the repository and run the following commands:</p>
 
-<p>sql</p>
-<p>Copy code</p>
-<p>npm install</p>
-<p>npm start</p>
+``sql``
+``Copy code``
+``npm install``
+``npm start``
 
 <h2 align="center">:white_check_mark: Usage</h2>
 <br>
-<p>-After running the above commands, the project should be running on localhost:3000. Users can add transactions by clicking on the "+" button, filter transactions by date range by clicking on the calendar icon, and view their spending by category in the chart.</p>
+<p>- After running the above commands, the project should be running on localhost:3000. Users can add transactions by clicking on the "+" button, filter transactions by date range by clicking on the calendar icon, and view their spending by category in the chart.</p>
 
 <br>
 <h2 align="center">:trophy: Acknowledgements</h2>
-This project was inspired by Will Dev.
+- This project was inspired by Will Dev.

@@ -9,11 +9,12 @@ import {
 
 
 const Resume = ({income, expense, total}) => {
+  
   return (
     <C.Container>
-        <ResumeItem title="Income" Icon={FaRegArrowAltCircleUp} value={income}/>
-        <ResumeItem title="Expense" Icon={FaRegArrowAltCircleDown} value={expense}/>
-        <ResumeItem title="Total" Icon={FaDollarSign} value={total}/>
+        <ResumeItem title="Income" Icon={FaRegArrowAltCircleUp} value={income} alignCenter/>
+        <ResumeItem title="Expense" Icon={FaRegArrowAltCircleDown} value={expense}alignCenter />
+        <ResumeItem title="Total" Icon={FaDollarSign} value={total} alignCenter/>
     </C.Container>
   );
 };
